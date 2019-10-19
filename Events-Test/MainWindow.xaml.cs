@@ -24,5 +24,20 @@ namespace Events_Test
         {
             InitializeComponent();
         }
+
+        private void Grid_PreviewMouseDown(object sender, MouseButtonEventArgs e)
+        { // Breakpoint goes here
+
+        }
+
+        private void Image_MouseDown(object sender, MouseButtonEventArgs e)
+        { // Breakpoint goes here
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        { // Breakpoint goes here
+
+        }
     }
 }
